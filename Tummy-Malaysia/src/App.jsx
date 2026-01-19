@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Hero from './components/hero/hero';
-import Trust from './components/Trust/trust';
+import Trust from './components/Trust/Trust';
 import Introduction from './components/Introduction/Introduction';
 import WhatIs from './components/WhatIs/WhatIs'; 
 import WhyChanges from './components/WhyChanges/WhyChanges'; 
