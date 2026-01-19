@@ -1,0 +1,43 @@
+.safety-section {
+  padding: 64px 24px;
+  background-color: #f58828; /* orange-brand */
+  color: #ffffff;
+}
+
+.safety-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.safety-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  text-underline-offset: 8px;
+}
+
+.safety-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 1024px;
+  margin: 40px auto 0 auto;
+}
+
+.safety-card {
+  padding: 25px 50px;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 12px;
+  font-weight: 400;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .safety-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

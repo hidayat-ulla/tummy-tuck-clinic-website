@@ -1,0 +1,88 @@
+.whatis-section {
+  padding: 80px 24px;
+  background-color: #f9fafb; /* gray-50 */
+}
+
+.whatis-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.whatis-header {
+  text-align: center;
+  max-width: 768px;
+  margin: 0 auto 64px auto;
+}
+
+.whatis-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.whatis-subtitle {
+  color: #4b5563; /* gray-600 */
+  font-size: 16px;
+}
+
+.whatis-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.whatis-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-bottom: 4px solid #f97316; /* orange brand */
+}
+
+.whatis-num {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f97316;
+  margin-bottom: 16px;
+}
+
+.whatis-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.whatis-card-desc {
+  color: #4b5563;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.whatis-footer {
+  text-align: center;
+  max-width: 800px;
+  margin: 64px auto 0 auto;
+}
+
+.whatis-footer-text {
+  color: #374151; /* gray-700 */
+  line-height: 1.7;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.whatis-footer-note {
+  color: #f97316; /* orange brand */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .whatis-grid {
+    grid-template-columns: 1fr;
+  }
+}
